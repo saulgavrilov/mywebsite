@@ -25,6 +25,7 @@ const Projects = () => {
             <div className='project-options'>
               <a
                 href='https://github.com/saulgavrilov/calendar'
+                rel='noreferrer'
                 target='_blank'
               >
                 Source Code
@@ -46,6 +47,7 @@ const Projects = () => {
             <div className='project-options'>
               <a
                 href='https://github.com/saulgavrilov/rgb-to-hex-color'
+                rel='noreferrer'
                 target='_blank'
               >
                 Source Code
@@ -64,6 +66,7 @@ const Projects = () => {
             <div className='project-options'>
               <a
                 href='https://github.com/saulgavrilov/devcamper-api'
+                rel='noreferrer'
                 target='_blank'
               >
                 Source Code
