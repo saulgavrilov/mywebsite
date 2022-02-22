@@ -1,0 +1,39 @@
+.contact {
+  margin-bottom: 1rem;
+}
+
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-inline: 1rem;
+}
+
+.contact-left {
+  color: var(--clr-gray);
+}
+
+.contact-right a {
+  color: var(--clr-blue);
+  border: 1px solid var(--clr-blue);
+  padding: 0.5rem 1rem;
+}
+
+.contact-right a:hover {
+  color: var(--clr-white);
+  background: var(--clr-blue);
+  -moz-box-shadow: 0px 0px 5px var(--clr-blue);
+  -webkit-box-shadow: 0px 0px 5px var(--clr-blue);
+  box-shadow: 0px 0px 5px var(--clr-blue);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    margin-bottom: 2rem;
+  }
+
+  .contact-container {
+    gap: 2rem;
+  }
+}
