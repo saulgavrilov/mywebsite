@@ -1,8 +1,8 @@
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import Showcase from './components/Showcase';
-import SocialNavbar from './components/SocialNavbar';
-import Technologies from './components/Technologies';
+import Contact from './components/contact/Contact';
+import Projects from './components/projects/Projects';
+import Showcase from './components/showcase/Showcase';
+import SocialNavbar from './components/socialNavbar/SocialNavbar';
+import Technologies from './components/technologies/Technologies';
 
 const App = () => {
   return (

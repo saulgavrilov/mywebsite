@@ -1,8 +1,8 @@
 import './Projects.css';
-import Container from './Container';
-import CalendarProjectImage from '../assets/calendar-project.png';
-import RGBToHEXImage from '../assets/rgb-to-hex-project.png';
-import NoImage from '../assets/no-image.png';
+import Container from '../Container';
+import CalendarProjectImage from '../../assets/calendar-project.png';
+import RGBToHEXImage from '../../assets/rgb-to-hex-project.png';
+import NoImage from '../../assets/no-image.png';
 
 const Projects = () => {
   return (

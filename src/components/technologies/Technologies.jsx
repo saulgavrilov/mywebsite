@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
 import { SiNodedotjs, SiExpress, SiMongodb } from 'react-icons/si';
-import Container from './Container';
+import Container from '../Container';
 import './Technologies.css';
 
 const Technologies = () => {
