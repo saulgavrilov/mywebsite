@@ -72,10 +72,6 @@
 }
 
 @media (max-width: 414px) {
-  .showcase {
-    height: calc(100vh - 50px);
-  }
-
   .showcase-greeting-links {
     display: none;
   }

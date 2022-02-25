@@ -1,7 +1,10 @@
 .social-navbar {
+  position: absolute;
+  margin-top: 1rem;
   width: 100%;
   height: 50px;
   background: var(--clr-dark);
+  z-index: 3;
   display: none;
 }
 

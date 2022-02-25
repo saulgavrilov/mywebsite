@@ -1,5 +1,5 @@
-import './Contact.css';
-import Container from '../Container';
+import '../styles/contact.css';
+import Container from './Container';
 
 const Contact = () => {
   return (

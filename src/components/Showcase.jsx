@@ -1,7 +1,7 @@
-import BackgroundAnimation from '../backgroundAnimation/BackgroundAnimation';
-import Container from '../Container';
-import ScrollDown from '../scrollDown/ScrollDown';
-import './Showcase.css';
+import BackgroundAnimation from './backgroundAnimation/BackgroundAnimation';
+import Container from './Container';
+import ScrollDown from './scrollDown/ScrollDown';
+import '../styles/showcase.css';
 
 const Showcase = () => {
   return (
