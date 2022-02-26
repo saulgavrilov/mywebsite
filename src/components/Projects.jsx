@@ -73,6 +73,45 @@ const Projects = () => {
               </a>
             </div>
           </div>
+
+          <div className='project'>
+            <div className='project-image'>
+              <img src='https://user-images.githubusercontent.com/48588501/155764522-321ddc5f-1ecd-4561-ace2-c9b0b866a906.png' alt='proShop' />
+            </div>
+            <h3 className='project-title'>ProShop</h3>
+            <div className='project-desc'>
+              <p>Shopping cart built with MERN &amp; Redux</p>
+            </div>
+            <div className='project-options'>
+              <a
+                href='https://github.com/saulgavrilov/proShop'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
+          <div className='project'>
+            <div className='project-image'>
+              <img src={NoImage} alt='calculator' />
+            </div>
+            <h3 className='project-title'>Calculator</h3>
+            <div className='project-desc'>
+              <p>simple calculator in react, without using any libraries</p>
+            </div>
+            <div className='project-options'>
+              <a
+                href='https://github.com/saulgavrilov/simple-calculator-in-react'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
         </div>
       </Container>
     </div>
