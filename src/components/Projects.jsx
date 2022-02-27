@@ -3,12 +3,40 @@ import Container from './Container';
 import CalendarProjectImage from '../assets/calendar-project.png';
 import RGBToHEXImage from '../assets/rgb-to-hex-project.png';
 import NoImage from '../assets/no-image.png';
+import GoalSetterProjectImage from '../assets/goal-setter-project.png';
 
 const Projects = () => {
   return (
     <div className='projects' id='projects'>
       <Container>
         <div className='projects-container'>
+          <div className='project'>
+            <div className='project-image'>
+              <img src={GoalSetterProjectImage} alt='GoalSetter Project' />
+            </div>
+            <h3 className='project-title'>GoalSetter</h3>
+            <div className='project-desc'>
+              <p>MERN Stack App</p>
+            </div>
+            <div className='project-options'>
+              <a
+                href='https://github.com/saulgavrilov/goalsetter'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Source Code
+              </a>
+
+              <a
+                href='https://goalsettermernappsaul.herokuapp.com/login'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Live Preview
+              </a>
+            </div>
+          </div>
+
           <div className='project'>
             <div className='project-image'>
               <img src={CalendarProjectImage} alt='Calendar Project' />
@@ -76,7 +104,10 @@ const Projects = () => {
 
           <div className='project'>
             <div className='project-image'>
-              <img src='https://user-images.githubusercontent.com/48588501/155764522-321ddc5f-1ecd-4561-ace2-c9b0b866a906.png' alt='proShop' />
+              <img
+                src='https://user-images.githubusercontent.com/48588501/155764522-321ddc5f-1ecd-4561-ace2-c9b0b866a906.png'
+                alt='proShop'
+              />
             </div>
             <h3 className='project-title'>ProShop</h3>
             <div className='project-desc'>
@@ -111,7 +142,6 @@ const Projects = () => {
               </a>
             </div>
           </div>
-
         </div>
       </Container>
     </div>
