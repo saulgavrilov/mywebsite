@@ -12,6 +12,28 @@ const Projects = () => {
         <div className='projects-container'>
           <div className='project'>
             <div className='project-image'>
+              <img src={NoImage} alt='MyBook List Project' />
+            </div>
+            <h3 className='project-title'>MyBookList</h3>
+            <div className='project-desc'>
+              <p>
+                JavaScript app that built without and library or JS framework,
+                using classes, local storage and more.
+              </p>
+            </div>
+            <div className='project-options'>
+              <a
+                href='https://github.com/saulgavrilov/book-list-app'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
+          <div className='project'>
+            <div className='project-image'>
               <img src={GoalSetterProjectImage} alt='GoalSetter Project' />
             </div>
             <h3 className='project-title'>GoalSetter</h3>
@@ -25,14 +47,6 @@ const Projects = () => {
                 target='_blank'
               >
                 Source Code
-              </a>
-
-              <a
-                href='https://goalsettermernappsaul.herokuapp.com/login'
-                rel='noreferrer'
-                target='_blank'
-              >
-                Live Preview
               </a>
             </div>
           </div>
