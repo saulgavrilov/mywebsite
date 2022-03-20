@@ -12,6 +12,25 @@ const Projects = () => {
         <div className='projects-container'>
           <div className='project'>
             <div className='project-image'>
+              <img src={NoImage} alt='Notification Library' />
+            </div>
+            <h3 className='project-title'>Notification Library</h3>
+            <div className='project-desc'>
+              <p>This project does not have description</p>
+            </div>
+            <div className='project-options'>
+              <a
+                href='https://github.com/saulgavrilov/notification-library'
+                rel='noreferrer'
+                target='_blank'
+              >
+                Source Code
+              </a>
+            </div>
+          </div>
+
+          <div className='project'>
+            <div className='project-image'>
               <img src={NoImage} alt='MyBook List Project' />
             </div>
             <h3 className='project-title'>MyBookList</h3>
